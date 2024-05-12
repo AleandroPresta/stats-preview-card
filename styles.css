@@ -16,9 +16,11 @@ html, body {
     margin: 0px;
     padding: 0px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
+
+    height: 100%;
+    width: 100%;
 }
 
 .card {
@@ -28,7 +30,6 @@ html, body {
     align-items: center;
 
     width: 320px;
-
     margin-top: 75px;
 }
 
